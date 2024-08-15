@@ -138,6 +138,7 @@ const Wrapper = styled.section`
           border: 1px solid ${({ theme }) => theme.colors.white};
           font-size: 18px;
           transition: ease 0.6s;
+          cursor: pointer;
             &:hover{
               background-color: ${({ theme }) => theme.colors.orange};
               border: none;
